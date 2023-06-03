@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    background-image:url(img/titulinis.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #555;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ul{
+    
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding: 5px;
+}
+li{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+}
+.line{
+    border-bottom: 4px solid #04CB58;
+}
+a{
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    color: #555;
+}
+a:hover{
+    background-color: #04CB58;
+    color: white;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px #04CB58;
+    font-size: 70px;
+    margin-top: 20vh;
+    margin-bottom: 100px;;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #04CB58;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: #04CB58;
+}
+.white{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.text{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+.ball{
+   width: 30%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    background-image: url(img/kamuolys.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h2{
+    text-align: left;
+}
+span{
+    display: block;
+    width: 100px;
+    border-bottom: 3px solid #04CB58;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+    line-height: 30px;
+    margin: 20px;
+    font-size: 18px;
+}
+.green{
+    width: 100%;
+    height: auto;
+    background-color: #04CB58;
+    text-align: center;
+}
+.text2{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 20px;
+}
+.text2 p{
+    color: white;
+    margin: 10px;
+}
+.foto1, .foto2, .foto3{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.foto1{
+    background-image: url(img/Lekavicius.jpg);
+}
+.foto2{
+    background-image: url(img/Ulanovas.jpg);
+}
+.foto3{
+    background-image: url(img/Brazdeikis.jpg);
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/hale2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(10, 65, 55, 0.5);
+    color: white;
+    padding-top: 100px;
+}
+.layer p{
+    text-align: center;
+}
